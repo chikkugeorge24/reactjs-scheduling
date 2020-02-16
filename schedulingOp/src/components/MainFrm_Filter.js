@@ -10,22 +10,22 @@ class MainFrmFilter extends Component {
             <Card
                 size="small"
                 className="mt-3"
-                style={{ backgroundColor: "darkkhaki" }}>
+                >
                 <table>
                     <tr>
                         <td>
-                            <div className="m-3">
+                            <div >
                                 <Typography.Text>
                                     Schedule Name
                             </Typography.Text>
                                 <Input.Search
-                                    className="ml-3 " />
+                                     />
 
                             </div>
                         </td>
                         <td>
                             <div
-                                className="m-3">
+                                >
                                 <Typography.Text>
                                     DB
                                 </Typography.Text>
