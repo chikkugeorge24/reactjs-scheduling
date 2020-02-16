@@ -10,13 +10,11 @@ const styles = {
     }
 }
 class NavigationBar extends Component {
-
     constructor(props) {
         super(props);
     }
     render() {
         return (
-            // <h1>Hello... Good Morning</h1>
             <Navbar>
                 <NavbarGroup
                     align={Alignment.LEFT} >
