@@ -63,12 +63,14 @@ class MainFrmTableList extends Component {
     render() {
         return (
             <Card
+                className="cardStyle"
                 size="large"
-                className="mt-3"
-                >
+                style={{ textAlignLast: "center" }}
+            >
                 <Table
                     dataSource={ScheduleTableContent}
-                    columns={TableColumns} bordered/>
+                    columns={TableColumns}
+                    bordered />
             </Card>
         );
     }

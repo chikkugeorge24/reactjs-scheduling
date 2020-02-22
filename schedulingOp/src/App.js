@@ -5,11 +5,11 @@ import MainFrm_Filter from './components/MainFrm_Filter';
 import MainFrmTableList from './components/MainFrm_TableList';
 function App() {
     return (
-        <React.Fragment>
+        <div className="content">
             <NavigationBar />
             <MainFrm_Filter />
             <MainFrmTableList />
-        </React.Fragment>
+        </div>
     );
 }
 
